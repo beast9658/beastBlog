@@ -11,7 +11,7 @@
 site:
   subtitle: Beastrong's Blog
   author: Beastrong
-  nick: Beastrong
+  nick: 记录下自己的收获
   description:
   link: '/'
   language: cn
@@ -32,12 +32,12 @@ site:
 authors:
   ##! example
   # TriDiamond:
-  #   name: TriDiamond
-  #   avatar: https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg
-  #   link: https://github.com/TriDiamond
-  #   description: 'Think like an artist, code like an artisan.'
-  #   socials:
-  #     github: https://tridiamond.tech
+    # name: TriDiamond
+    # avatar: https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg
+    # link: https://github.com/TriDiamond
+    # description: 'Think like an artist, code like an artisan.'
+    # socials:
+    #   github: https://tridiamond.tech
 
 #! ---------------------------------------------------------------
 #! Menu Configs
@@ -101,8 +101,8 @@ site_meta:
 
 # For local development only!
 gitalk:
-  enable: true
-  autoExpand: true
+  enable: false
+  autoExpand: false
   clientID: ''
   clientSecret: ''
   repo: 'dev-blog-comments'
@@ -152,8 +152,8 @@ copy_protection:
 #! @docs https://aurora.tridiamond.tech/guide/site-meta.html#custom-meta
 #! ---------------------------------------------------------------
 aurora_bot:
-  enable: false
-  locale: en
+  enable: true
+  locale: cn
   bot_type: dia
   tips:
 
